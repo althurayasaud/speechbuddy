@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Theme -->
+    <style name="Theme.SpeechBuddy" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/blue_500</item>
+        <item name="colorSecondaryVariant">@color/blue_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnBackground">@color/gray_900</item>
+        <item name="colorOnSurface">@color/gray_900</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/purple_500</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+        <!-- Navigation Bar -->
+        <item name="android:navigationBarColor">@color/white</item>
+
+        <!-- Text Appearance -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.SpeechBuddy.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.SpeechBuddy.Headline2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.SpeechBuddy.Body1</item>
+
+        <!-- Material Components -->
+        <item name="materialButtonStyle">@style/Widget.SpeechBuddy.Button</item>
+        <item name="textInputStyle">@style/Widget.SpeechBuddy.TextInputLayout</item>
+    </style>
+
+    <!-- Text Appearances -->
+    <style name="TextAppearance.SpeechBuddy.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/gray_900</item>
+    </style>
+
+    <style name="TextAppearance.SpeechBuddy.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/gray_900</item>
+    </style>
+
+    <style name="TextAppearance.SpeechBuddy.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray_700</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="Widget.SpeechBuddy.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <!-- TextInputLayout Style -->
+    <style name="Widget.SpeechBuddy.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/purple_500</item>
+        <item name="hintTextColor">@color/purple_500</item>
+    </style>
+</resources>

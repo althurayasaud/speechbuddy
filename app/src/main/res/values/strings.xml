@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Speech Buddy</string>
+    <string name="app_name_title">Speech Buddy</string>
+    <string name="tagline">Learn to Speak with Fun! 🎤</string>
+    <string name="microphone_logo">Microphone Icon</string>
+    <string name="sound_waves">Sound Waves</string>
+    <string name="bubble">Bubble</string>
+    <string name="sparkle">Sparkle</string>
+    <string name="learn_to_speak_with_fun">Learn to Speak with Fun</string>
+    <string name="choose_a_category_to_learn">Choose a category to learn</string>
+    <string name="speech_buddy">Speech Buddy</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="what_do_you_want_to_learn_today">What do you want to learn today?</string>
+    <string name="category_format">Category: %1$s</string>
+    <string name="score_format">Score: %1$d</string>
+    <string name="logout">logout</string>
+    <string name="welcome_message">Welcome, %1$s! 👋</string>
+    <string name="say_word">Say: %1$s</string>
+    <string name="no_word">No word available</string>
+    <string name="failed_load">Failed to load word</string>
+    <string name="student">Student</string>
+
+</resources>

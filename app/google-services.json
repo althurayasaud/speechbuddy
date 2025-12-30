@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "685762684264",
+    "project_id": "speechbuddy-a1a94e6a",
+    "storage_bucket": "speechbuddy-a1a94e6a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685762684264:android:ef64b2feb2a6adbf3a22dd",
+        "android_client_info": {
+          "package_name": "com.example.speechbuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa44S0nL0jtxgi-kPyWObSIemNpimOhbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
